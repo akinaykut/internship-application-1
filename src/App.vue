@@ -1,10 +1,11 @@
 <template>
   <hello-aykut></hello-aykut>
+  <hello-muhammet></hello-muhammet>
 </template>
 
 <script>
 import HelloAykut from "./components/AykutsComponents/HelloAykut.vue";
-import HelloMuhammetVue from "./components/MuhammetsComponents/HelloMuhammet.vue";
+import HelloMuhammet from "./components/MuhammetsComponents/HelloMuhammet.vue";
 export default {
   name: "App",
   components: {
