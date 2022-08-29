@@ -1,25 +1,28 @@
 <template>
-  <hello-aykut></hello-aykut>
+  <the-header></the-header>
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloAykut from "./components/AykutsComponents/HelloAykut.vue";
+import TheHeader from "./components/Header/TheHeader.vue";
 
 export default {
   name: "App",
   components: {
-    HelloAykut,
+    TheHeader,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 15vh;
+  /* height: 5000px; */
+  background-color: bisque;
 }
 </style>
