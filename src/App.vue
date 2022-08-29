@@ -4,11 +4,12 @@
 
 <script>
 import HelloAykut from "./components/AykutsComponents/HelloAykut.vue";
-
+import HelloMuhammetVue from "./components/MuhammetsComponents/HelloMuhammet.vue";
 export default {
   name: "App",
   components: {
     HelloAykut,
+    HelloMuhammet
   },
 };
 </script>
