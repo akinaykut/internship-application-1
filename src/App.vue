@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <hello-aykut></hello-aykut>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloAykut from "./components/AykutsComponents/HelloAykut.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloAykut,
+  },
+};
 </script>
 
 <style>
