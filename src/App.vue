@@ -1,5 +1,5 @@
 <template>
-  <the-header></the-header>
+  <the-header v-if="this.$route.path === '/'"></the-header>
   <router-view></router-view>
 </template>
 
@@ -21,7 +21,6 @@ export default {
   box-sizing: border-box;
 }
 body {
-  margin-top: 15vh;
   /* height: 5000px; */
   background-color: bisque;
 }

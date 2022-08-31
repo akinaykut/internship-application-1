@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <hello-aykut></hello-aykut>
+    <to-do-app></to-do-app>
 
     <footer class="white-section" id="footer">
       <div class="container-fluid">
@@ -31,10 +32,12 @@
 
 <script>
 import HelloAykut from "../AykutsComponents/HelloAykut.vue";
+import ToDoApp from "../AykutsComponents/ToDoApp.vue";
 
 export default {
   components: {
     HelloAykut,
+    ToDoApp,
   },
 };
 </script>
