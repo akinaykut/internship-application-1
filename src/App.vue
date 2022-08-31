@@ -1,6 +1,8 @@
 <template>
   <the-header v-if="this.$route.path === '/'"></the-header>
   <router-view></router-view>
+  
+
 </template>
 
 <script>
@@ -26,3 +28,4 @@ body {
   background-color: bisque;
 }
 </style>
+

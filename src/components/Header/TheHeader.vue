@@ -6,7 +6,11 @@
         <ul>
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/akinaykut">Aykut</router-link></li>
+
+          <li> <router-link to="/ahmet">Ahmet</router-link></li>
+
           <li><router-link to="/simsekmu">Muhammet</router-link></li>
+
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contact</a></li>
           
