@@ -77,6 +77,7 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 6.5rem;
   margin: 50px auto 0 auto;
+  text-align: center;
   color: #66bfbf;
 }
 
