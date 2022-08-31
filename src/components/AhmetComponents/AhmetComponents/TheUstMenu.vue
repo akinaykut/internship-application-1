@@ -11,12 +11,18 @@
             <li id="ipod"><a href="ipod"></a></li>
             <li id="Ituns"><a href="Ituns"></a></li>
             <li id="support"><a href="support"></a></li>
-            <li id="searc"><a href="searc"></a></li>
+            <li id=" searc"><a href="searc"></a></li>
         </ul>
 
       </div>
     </div>
     <div class="center1">
+      <div class="spot">Change is in the Air </div>
+      <div class="ipodpicture"></div>
+     <div> <div class="ipadlink">
+         <div class="ipadleftlink"><a href="">Learn More 1</a> </div>
+         <div class="ipadrightlink"> <a href="">Watch the keynote</a> </div>
+      </div></div>
     </div>
     <div class="center2">
     </div>
@@ -33,14 +39,14 @@
     background:#333;
  }
  .menu{
-    width: 1078px;
+    width: 1200px;
     height: 46px;
     margin: 0 auto;
  }
  .menu ul li{
     float: left;
  }
- .menu ul li a{
+ .menu ul li a {
    display: block;
    text-indent: -2000px
  }
@@ -54,18 +60,33 @@
  .menu ul li#Itunes a{width: 130px;  height:20px; background:url(./img/tab_itunes.png); margin: 15px 0 0 0}
  .menu ul li#support a{width: 130px;  height:20px; background:url(./img/tab_support.png); margin: 15px 0 0 0}
  .menu ul li#search a{width: 19px;  height:19px; background:url(./img/search_icon_white.png); margin: 11px 0 0 0}
-
+ .menu ul li a:hover{opacity:0.3;}
  .center1{
     width: 100%;
     height: 575px;
     background:#fff;
+    padding: 120px 0 0 0;
  }
- .center2{
+ .spot{width: 280px; height: 150px; 
+   background: url(./img/ipadair_logo_large.png) center top  no-repeat;
+   margin: 0 auto;
+   text-align: center;
+   padding: 70px 0 0 0;
+}
+.ipodpicture{width: 1193px; height: 35px;  background:url(./img/ipadair_xlarge.jpg) no-repeat ;
+   margin: 0 auto;
+   padding: 50px 0 0 0;
+}
+.ipadlink{width: 375px; height: 40px; margin: 50 auto 0 auto;}
+.ipadleftlink{width: 145px; height: 40px;  float: left;  }
+.ipadrightLink{width: 220px; height: 40px; margin: 0 0 0 10px;}
+.center2{
     width: 100%;
     height: 200px;
     background:#fff;
  }
- .under{
+
+.under{
     width: 100%;
     height: 82px;
     background:#fff;

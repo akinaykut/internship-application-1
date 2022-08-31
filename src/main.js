@@ -3,10 +3,8 @@ import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import TheHome from "./components/Pages/TheHome.vue";
 import AykutsPage from "./components/Pages/AykutsPage.vue";
-
-import TheUstMenu from "./components/Pages/Ahmetpage/TheUstMenu.vue";
-
 import MuhammetsPage from "./components/Pages/MuhammetsPage.vue";
+import AhmetsPage from "./components/Pages/AhmetsPage.vue";
 
 
 const app = createApp(App);
@@ -16,12 +14,12 @@ const router = createRouter({
     { path: "/", component: TheHome },
     { path: "/akinaykut", component: AykutsPage },
 
-    {path:"/ahmetYildiz", component: TheUstMenu},
-
     { path: "/simsekmu", component: MuhammetsPage },
+  
+    { path: "/ahmets", component: AhmetsPage },
 
-  ],
-});
+  ]}
+  );
 
 app.use(router);
 
