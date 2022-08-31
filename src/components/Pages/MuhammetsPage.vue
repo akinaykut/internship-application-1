@@ -66,6 +66,7 @@
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2em;
+    
 }
   
   
@@ -79,12 +80,8 @@
   .contact-details {
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
   }
   
-  .contact-details.a{
-    text-align: center;
-
-  }
-
 </style>
