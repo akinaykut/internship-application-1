@@ -55,7 +55,7 @@ export default {
 
 .white-section {
   padding: 5%;
-  background-color: white;
+  background-color: #66bfbf;
 }
 
 #footer a {
