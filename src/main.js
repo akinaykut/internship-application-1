@@ -6,17 +6,20 @@ import AykutsPage from "./components/Pages/AykutsPage.vue";
 import MuhammetsPage from "./components/Pages/MuhammetsPage.vue";
 import AhmetsPage from "./components/Pages/AhmetsPage.vue";
 
+
 const app = createApp(App);
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: "/", component: TheHome },
     { path: "/akinaykut", component: AykutsPage },
+
     { path: "/simsekmu", component: MuhammetsPage },
+  
     { path: "/ahmets", component: AhmetsPage },
-    
-  ],
-});
+
+  ]}
+  );
 
 app.use(router);
 
