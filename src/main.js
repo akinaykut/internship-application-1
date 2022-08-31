@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import TheHome from "./components/Pages/TheHome.vue";
 import AykutsPage from "./components/Pages/AykutsPage.vue";
 import MuhammetsPage from "./components/Pages/MuhammetsPage.vue";
+import AhmetsPage from "./components/Pages/AhmetsPage.vue";
 
 const app = createApp(App);
 const router = createRouter({
@@ -12,6 +13,8 @@ const router = createRouter({
     { path: "/", component: TheHome },
     { path: "/akinaykut", component: AykutsPage },
     { path: "/simsekmu", component: MuhammetsPage },
+    { path: "/ahmets", component: AhmetsPage },
+    
   ],
 });
 
