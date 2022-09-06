@@ -1,8 +1,6 @@
 <template>
   <the-header v-if="this.$route.path === '/'"></the-header>
   <router-view></router-view>
-  
-
 </template>
 
 <script>
@@ -10,12 +8,10 @@ import TheHeader from "./components/Header/TheHeader.vue";
 export default {
   name: "App",
   components: {
-    TheHeader,},
-  
-  };
-
+    TheHeader,
+  },
+};
 </script>
-
 
 <style>
 * {
@@ -28,4 +24,3 @@ body {
   background-color: bisque;
 }
 </style>
-

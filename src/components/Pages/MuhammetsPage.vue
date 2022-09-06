@@ -1,18 +1,19 @@
 <template>
-    
-      <quiz-app></quiz-app>
-
+  <div class="container">
+    <header id="header" class="header">
+      <title-main></title-main>
+    </header>
+  </div>
 </template>
-
 <script>
-  import quizApp from "../MuhammetsComponents/quizApp.vue";
-  export default {
-    components: {
-    quizApp,
-},
+import titleMain from "../MuhammetsComponents/FirebaseAppComponenets/titleMain.vue"; /* import '../MuhammetsComponents/FirebaseAppComponenets/assets/main.css'; */
+export default {
+  components: {
+    titleMain,
+  },
 };
 </script>
 
-<style>
-  
+<style scoped>
+/*@import "../MuhammetsComponents/FirebaseAppComponenets/assets/main.css"; */
 </style>
