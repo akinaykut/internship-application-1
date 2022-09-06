@@ -10,10 +10,9 @@
           <li><router-link to="/simsekmu">Muhammet</router-link></li>
 
           <li><router-link to="/ahmets">Ahmet</router-link></li>
-        
+
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contact</a></li>
-          
         </ul>
       </nav>
     </div>
@@ -21,13 +20,20 @@
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 .header {
   position: fixed;
   top: 0;
   z-index: 99;
   width: 100%;
-  height: 12%;
-  background-color: #df7861;
+  height: 8%;
+  background: rgb(229, 228, 240);
+  background: linear-gradient(
+    90deg,
+    rgb(178, 6, 221) 0%,
+    rgb(111, 7, 172) 35%,
+    rgb(61, 3, 109) 100%
+  );
 }
 .container {
   width: 80%;
@@ -46,19 +52,32 @@ ul {
 }
 li {
   list-style-type: none;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 a {
-  color: #222831;
+  color: #e6ebf3;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: sans-serif;
   letter-spacing: 2px;
   transition: 1ms;
 }
+h1 {
+  color: #e6ebf3;
+}
 
 a:hover {
-  color: black;
+  font-family: "Lobster", sans-serif;
+  cursor: pointer;
+  text-decoration: wavy;
+  color: #e6ebf3;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgb(61, 3, 109) 0%,
+    rgb(111, 7, 172) 35%,
+    rgb(178, 6, 221) 90%
+  );
 }
 </style>
